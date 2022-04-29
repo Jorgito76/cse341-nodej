@@ -6,7 +6,7 @@ routes.use(
   '/',
   (docData = (req, res) => {
     let docData = {
-      documentationURL: 'https://horgito76.github.io/jorge-api-docs',
+      documentationURL: 'https://jorgito76.github.io/jorge-api-docs',
     };
     res.send(docData);
   })
