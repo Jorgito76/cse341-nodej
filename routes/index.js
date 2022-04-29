@@ -1,6 +1,15 @@
-const express = require('express');
-const router = express.Router();
+const routes = require('express').Router();
+const temple = require('./temple');
 
-router.use('/contacts', require('./contacts'))
+routes.use('/temples', temple);
+routes.use(
+  '/',
+  (docData = (req, res) => {
+    let docData = {
+      documentationURL: 'https://horgito76.github.io/jorge-api-docs',
+    };
+    res.send(docData);
+  })
+);
 
-module.exports = router;
+module.exports = routes;
