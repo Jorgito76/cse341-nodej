@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanbirch/temple-api.git"
+    "url": "git+https://github.com/Jorgito76/cse341-nodej/tree/lesson4-cse-personal.git"
   },
   "author": "Nathan Birch",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nathanbirch/temple-api/issues"
+    "url": "https://github.com/Jorgito76/cse341-nodej/tree/lesson4-cse-personal"
   },
-  "homepage": "https://github.com/nathanbirch/temple-api#readme",
+  "homepage": "https://github.com/Jorgito76/cse341-nodej/tree/lesson4-cse-personal",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
