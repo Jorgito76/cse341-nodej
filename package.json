@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jorgito76/cse341-nodej/tree/lesson4-cse-personal.git"
+    "url": "git+https://github.com/Jorgito76/cse341-nodej.git#lesson4-cse-personal.git"
   },
-  "author": "Nathan Birch",
+  "author": "Jorge ovalle",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jorgito76/cse341-nodej/tree/lesson4-cse-personal"
