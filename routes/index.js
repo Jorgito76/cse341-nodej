@@ -1,15 +1,7 @@
-const routes = require('express').Router();
-const temple = require('./temple');
+const express = require('express');
+const router = express.Router();
 
-routes.use('/temples', temple);
-routes.use(
-  '/',
-  (docData = (req, res) => {
-    let docData = {
-      documentationURL: 'https://jorgito76.github.io/jorge-api-docs',
-    };
-    res.send(docData);
-  })
-);
+router.use('/', require('./swagger'));
+router.use('/contacts', require('./contacts'));
 
-module.exports = routes;
+module.exports = router;
