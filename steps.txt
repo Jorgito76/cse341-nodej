@@ -1,0 +1,36 @@
+picked an idea: create an online course website
+Data planned out: 
+
+User
+    Username
+    _id
+    password
+    email
+    teachingExperience
+        topic
+        years
+        willingToTeach
+        lastUpdatedDate
+    favorites
+        content
+        id
+        name
+        dateFavorited
+    interests
+        content
+        id
+        name
+        eagerToLearnScale
+    isAuthor
+
+course 
+    _id
+    courseType
+    courseName
+    author
+    publishedDate
+    description
+    likes
+    views
+    courseLength
+    
