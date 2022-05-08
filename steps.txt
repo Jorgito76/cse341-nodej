@@ -1,30 +1,6 @@
 picked an idea: create an online course website
 Data planned out: 
 
-User
-    _id
-    Username
-    password
-    firstName
-    lastName
-    email
-    teachingExperience
-        topic
-        years
-        willingToTeach
-        lastUpdatedDate
-    favorites
-        content
-        id
-        name
-        dateFavorited
-    interests
-        content
-        id
-        name
-        eagerToLearnScale
-    isAuthor
-
 course 
     _id
     courseType
@@ -36,6 +12,3 @@ course
     views
     courseLength
     
-credentials
-    Username
-    password
