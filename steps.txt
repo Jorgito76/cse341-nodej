@@ -2,9 +2,11 @@ picked an idea: create an online course website
 Data planned out: 
 
 User
-    Username
     _id
+    Username
     password
+    firstName
+    lastName
     email
     teachingExperience
         topic
@@ -34,3 +36,6 @@ course
     views
     courseLength
     
+credentials
+    Username
+    password
