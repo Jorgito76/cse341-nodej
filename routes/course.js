@@ -1,8 +1,13 @@
-const express = require('express');
-const router = express.Router();
+const routes = require('express').Router();
+const promotions = require('../controllers/promotions.js');
+const validation = require('../middleware/validate');
 
-const courseController = require('../controllers/course');
+routes.get('/', promotions.findAll);
 
-router.get('/:courseName', courseController.getCourse);
+routes.post('/', validation.savePromotion, promotions.create);
 
-module.exports = router;
+routes.put('/:id', validation.savePromotion, promotions.update);
+
+routes.delete('/:id', promotions.delete);
+
+module.exports = routes;

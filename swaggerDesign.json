@@ -265,7 +265,7 @@
           }
         }
       },
-      "/user": {
+      "/user/getAllUsers": {
         "get": {
           "tags": ["user"],
           "summary": "Get all users",
